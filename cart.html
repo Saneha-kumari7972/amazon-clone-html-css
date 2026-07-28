@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar (same as index.html for consistency) -->
+    <nav>
+        <a href="./index.html">
+            <img src="./assets/amazon_logo.png" width="100" alt="Amazon Logo">
+        </a>
+        <a href="#" class="nav-country">
+            <img src="./assets/location_icon.png" height="20" alt="Location Icon">
+            <div>
+                <p>Deliver to</p>
+                <p>United States</p>
+            </div>
+        </a>
+        <div class="nav-search">
+            <div class="nav-search-gategory">
+                <p>All</p>
+                <img src="./assets/dropdown_icon.png" height="12" alt="Dropdown">
+            </div>
+            <input type="text" class="nav-search-input" placeholder="Search Amazon">
+            <img src="./assets/search_icon.png" class="nav-search-icon" alt="Search Icon">
+        </div>
+        <div class="nav-language">
+            <img src="./assets/us_flag.png" width="20px" alt="US Flag">
+            <p>en-US</p>
+            <img src="./assets/dropdown_icon.png" width="12px" alt="Dropdown">
+        </div>
+        <div class="nav-text">
+            <a href="./signin.html"><p>Hello, Sign in</p></a>
+            <a href="./account.html"><h1>Account & Lists <img src="./assets/dropdown_icon.png" width="8px" alt="Dropdown"></h1></a>
+        </div>
+        <a href="./orders.html" class="nav-text">
+            <p>Returns</p>
+            <h1>& Orders</h1>
+        </a>
+        <a href="./cart.html" class="nav-cart">
+            <img src="./assets/cart_icon.png" width="35px" alt="Cart Icon">
+            <h4>Cart</h4>
+        </a>
+    </nav>
+    <div class="nav-bottom">
+        <a href="#"><div>
+            <img src="./assets/menu_icon.png" width="25px" alt="Menu Icon">
+            <p>All</p>
+        </div></a>
+        <a href="./deals.html"><p>Today's Deals</p></a>
+        <a href="#"><p>Customer Service</p></a>
+        <a href="#"><p>Gift Cards</p></a>
+        <a href="#"><p>Registry</p></a>
+        <a href="#"><p>Sell</p></a>
+    </div>
+
+    <!-- Cart Page Content -->
+    <div class="cart-container">
+        <div class="cart-items">
+            <h2>Shopping Cart</h2>
+            <hr>
+            <div class="cart-item">
+                <img src="./assets/product2-1.jpg" alt="Product Image" class="cart-item-img">
+                <div class="cart-item-details">
+                    <p class="cart-item-title">This product is the best for you</p>
+                    <p class="stock-status">In Stock</p>
+                    <p class="item-actions">
+                        Qty: 
+                        <select>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                        </select>
+                        | <a href="#">Delete</a> | <a href="#">Save for later</a>
+                    </p>
+                </div>
+                <p class="cart-item-price">$14.49</p>
+            </div>
+            <hr>
+            <div class="cart-item">
+                <img src="./assets/product2-4.jpg" alt="Product Image" class="cart-item-img">
+                <div class="cart-item-details">
+                    <p class="cart-item-title">Another great product for your needs</p>
+                    <p class="stock-status">In Stock</p>
+                    <p class="item-actions">
+                        Qty: 
+                        <select>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                        </select>
+                        | <a href="#">Delete</a> | <a href="#">Save for later</a>
+                    </p>
+                </div>
+                <p class="cart-item-price">$22.99</p>
+            </div>
+            <hr>
+            <p class="cart-subtotal">Subtotal (2 items): <strong>$37.48</strong></p>
+        </div>
+
+        <div class="cart-subtotal-box">
+            <p>Subtotal (2 items): <strong>$37.48</strong></p>
+            <button>Proceed to checkout</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <img src="./assets/amazon_logo.png" width="100" alt="Amazon Logo">
+        <p>© 1996-2022, Amazon.com, Inc. or its affiliates & <br>Created by<br> <span>SALIHA BRIK</span></p>
+    </footer>
+</body>
+</html>
